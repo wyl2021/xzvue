@@ -266,8 +266,25 @@
 <script>
 import Carousel from"@/components/index/Carousel";
 export default {
+  data(){
+    return{
+      p1:{},
+    }
+  },
+  beforeCreate(){
+
+  },
+  created(){
+   
+  },
+  beforeMount(){
+
+  },
+  mounted(){
+this.axios.post()
+  },
  components:{
-   this.axios
+
    Carousel
 
  }
